@@ -1,0 +1,6 @@
+services:
+  aggregator:
+    build: .
+    volumes:
+      - .:/app
+    command: ["--input", "ad_data.csv", "--output", "results/"]

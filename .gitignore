@@ -1,0 +1,29 @@
+# Data files (~1GB input files should NOT be committed to git)
+ad_data.csv
+ad_data.csv.zip
+*:Zone.Identifier
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
